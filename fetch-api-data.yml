@@ -7,7 +7,7 @@ jobs:
       - name: Request
         uses: JamesIves/fetch-api-data-action@v2.2.2
         with:
-          endpoint: https://api.currencyapi.com/v3/latest?apikey=NrntlRvuPfc6VTUTHbEdfhnPbbqrGgIROOeh8whb
+          endpoint: https://api.currencyapi.com/v3/latest?apikey=WTKRbe0vlotmLhKy4ijCpY5TW86TXGV9J42CT0LC
 
       - name: Save Output File
         uses: actions/upload-artifact@v3
